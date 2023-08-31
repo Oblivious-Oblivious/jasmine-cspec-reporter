@@ -1,5 +1,5 @@
-const { before, before_each, after, after_each, assert_that } = require("./reporter");
-const SimpleTestClass = require("../simple.js");
+const { before, before_each, after, after_each, assert_that } = require("../index.js");
+const SimpleTestClass = require("./simple.js");
 
 const s = new SimpleTestClass();
 
