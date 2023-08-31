@@ -1,5 +1,9 @@
-const { before, before_each, after, after_each, assert_that } = require("../index.js");
-const SimpleTestClass = require("./simple.js");
+import {
+    before, before_each,
+    after, after_each,
+    assert_that
+}  from "../index";
+import SimpleTestClass from "./simple";
 
 const s = new SimpleTestClass();
 

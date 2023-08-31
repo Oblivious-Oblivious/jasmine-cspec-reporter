@@ -1,4 +1,4 @@
-require("./colors.js");
+import "./colors";
 
 const formatted_actual_expected = (_actual, _expected) => {
     var actual = _actual;
@@ -114,4 +114,4 @@ const custom_matchers = {
     },
 };
 
-module.exports = custom_matchers;
+export default custom_matchers;

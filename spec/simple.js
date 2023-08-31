@@ -26,4 +26,4 @@ class SimpleTestClass {
     }
 }
 
-module.exports = SimpleTestClass;
+export default SimpleTestClass;

@@ -1,9 +1,12 @@
 {
     "scripts": {
-        "test": "jasmine",
-        "coverage": "nyc jasmine"
+        "test": "jasmine --config=./jasmine.json --require=@babel/register",
+        "coverage": "nyc jasmine --config=./jasmine.json --require=@babel/register"
     },
     "devDependencies": {
+        "@babel/core": "^7.22.11",
+        "@babel/preset-env": "^7.22.14",
+        "@babel/register": "^7.22.5",
         "jasmine": "^5.1.0",
         "nyc": "^15.1.0"
     }

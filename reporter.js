@@ -1,4 +1,4 @@
-require("./colors.js");
+import "./colors";
 
 const custom_reporter = {
     spacing: "",
@@ -67,4 +67,4 @@ const custom_reporter = {
     },
 };
 
-module.exports = custom_reporter;
+export default custom_reporter;
