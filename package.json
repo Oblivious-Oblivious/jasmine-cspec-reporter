@@ -1,8 +1,10 @@
 {
     "scripts": {
-        "test": "jasmine"
+        "test": "jasmine",
+        "coverage": "nyc jasmine"
     },
     "devDependencies": {
-        "jasmine": "^5.1.0"
+        "jasmine": "^5.1.0",
+        "nyc": "^15.1.0"
     }
 }
