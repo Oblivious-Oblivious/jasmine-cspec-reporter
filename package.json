@@ -1,8 +1,14 @@
 {
+    "name": "jasmine-cspec-reporter",
+    "version": "1.0.0",
+    "description": "A custom reporter that adhears to the cSpec format",
+    "main": "index.js",
     "scripts": {
         "test": "jasmine --config=./jasmine.json --require=@babel/register",
         "coverage": "nyc jasmine --config=./jasmine.json --require=@babel/register"
     },
+    "author": "oblivious",
+    "license": "MIT",
     "devDependencies": {
         "@babel/core": "^7.22.11",
         "@babel/preset-env": "^7.22.14",
