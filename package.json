@@ -4,7 +4,7 @@
     "description": "A custom reporter that adhears to the cSpec format",
     "main": "index.js",
     "scripts": {
-        "test": "jasmine --config=./jasmine.json --require=@babel/register",
+        "spec": "jasmine --config=./jasmine.json --require=@babel/register",
         "coverage": "nyc jasmine --config=./jasmine.json --require=@babel/register"
     },
     "author": "oblivious",
