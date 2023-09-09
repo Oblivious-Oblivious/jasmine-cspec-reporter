@@ -4,6 +4,7 @@
     "description": "A custom reporter that adhears to the cSpec format",
     "main": "index.js",
     "scripts": {
+        "pp": "prettier . --trailing-comma all --tab-width 4 --no-bracket-spacing --arrow-parens avoid --write",
         "spec": "jasmine --config=./jasmine.json --require=@babel/register",
         "coverage": "nyc jasmine --config=./jasmine.json --require=@babel/register"
     },
@@ -14,6 +15,7 @@
         "@babel/preset-env": "^7.22.14",
         "@babel/register": "^7.22.5",
         "jasmine": "^5.1.0",
-        "nyc": "^15.1.0"
+        "nyc": "^15.1.0",
+        "prettier": "^3.0.3"
     }
 }

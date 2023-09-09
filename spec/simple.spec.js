@@ -1,8 +1,4 @@
-import {
-    before, before_each,
-    after, after_each,
-    assert_that
-}  from "../index";
+import {before, before_each, after, after_each, assert_that} from "../index";
 import SimpleTestClass from "./simple";
 
 const s = new SimpleTestClass();
@@ -103,9 +99,9 @@ describe("DESC 1", () => {
 });
 
 describe("Array Assertions", () => {
-    const a = [1,2,3,4,5];
-    const b = [7,7,7,7,7];
-    const c = [1,2,3,4];
+    const a = [1, 2, 3, 4, 5];
+    const b = [7, 7, 7, 7, 7];
+    const c = [1, 2, 3, 4];
 
     const aa = [1.1, 2.2, 3.3, 4.4, 5.5];
     const bb = [7.7, 7.7, 7.7, 7.7, 7.7];
